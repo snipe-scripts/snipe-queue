@@ -1,5 +1,7 @@
 # Snipe Queue System
 
+Made by Snipe and Cadburry (https://github.com/cadburry6969)
+
 # Features:
 - Priority Queue based on discord roles
 - Stackable priority based on roles. If you have two roles one with 10 points and other with 20 points, you will have 30 priority points.
