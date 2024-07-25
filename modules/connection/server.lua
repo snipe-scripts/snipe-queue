@@ -335,6 +335,6 @@ AddEventHandler('onResourceStart', function(resource)
     DebugPrint('Players: '..playercount)
 end)
 
-local function GetPlayersInQueue()
+local function getQueueCount()
     return queuelist
-end exports('GetPlayersInQueue', GetPlayersInQueue)
+end exports('getQueueCount', getQueueCount)

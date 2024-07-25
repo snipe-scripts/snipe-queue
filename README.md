@@ -14,3 +14,10 @@
 - Add your discord bot token and server id in `config_discord.lua`
 - Add your discord role ids along with the points system in `config_discord.lua`
 - Edit the button links in `presentCard.json` file
+
+# Developer Options
+
+- If you want to get the number of people in queue in any of your other script you can use the following exports:
+```lua
+exports['snipe-queue']:getQueueCount()
+```
