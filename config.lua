@@ -15,7 +15,7 @@ Config.DisableHardCap = true
 -- this makes person wait before even they initialize connection to prevent exploits
 Config.AntiSpam = {
     enabled = true,
-    time = 10 * 1000 -- 15 secs
+    time = 10 * 1000 -- 10 secs
 }
 
 -- timeout connection when they cross below time while they try connnecting
