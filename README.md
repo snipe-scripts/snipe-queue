@@ -21,3 +21,9 @@
 ```lua
 exports['snipe-queue']:getQueueCount()
 ```
+
+# FAQ's
+
+Q: How do I know if queue is broken?
+
+A: The animals on the queue ui will not move if the queue is broken.

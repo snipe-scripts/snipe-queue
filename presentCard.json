@@ -12,7 +12,7 @@
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "Snipe",
+                            "text": "Loading Snipe Queue System",
                             "color": "Accent",
                             "weight": "Bolder",
                             "size": "ExtraLarge"
@@ -61,33 +61,7 @@
                                     "items": [
                                         {
                                             "type": "TextBlock",
-                                            "text": "",
-                                            "wrap": true,
-                                            "size": "ExtraLarge",
-                                            "weight": "Bolder"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "Image",
-                                            "url": "https://cdn.discordapp.com/attachments/974207971347283978/1130573696134815855/airplane.png",
-                                            "size": "Small",
-                                            "horizontalAlignment": "Center",
-                                            "spacing": "Small"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "Column",
-                                    "width": "stretch",
-                                    "items": [
-                                        {
-                                            "type": "TextBlock",
-                                            "text": "Snipe Queue System",
+                                            "text": "Welcome To Snipe Server",
                                             "wrap": true,
                                             "horizontalAlignment": "Right",
                                             "size": "ExtraLarge",

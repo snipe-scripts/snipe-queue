@@ -212,11 +212,6 @@ AddEventHandler("playerConnecting", function(playerName, setKickReason, deferral
         if prioritydata[cIdentifier] then prioritydata[cIdentifier] = {} end
         -- add/update prio data for a identifier
         for _, role in pairs(playerroles) do
-            if Config.Discord.roles[role] and Config.Discord.roles[role].points == 0 then
-                deferrals.done("You have the Guest Role. You cannot join the server with Guest Role. Please refer back to your ticket!")
-                CancelEvent()
-                return
-            end
             if Config.Discord.roles[role] then
                 if whitelisted then
                     prioritydata[cIdentifier].points = prioritydata[cIdentifier].points + Config.Discord.roles[role].points
