@@ -1,0 +1,200 @@
+[
+    {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Snipe",
+                            "color": "Accent",
+                            "weight": "Bolder",
+                            "size": "ExtraLarge"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Queue",
+                                            "wrap": true,
+                                            "size": "Medium"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Time in Queeu",
+                            "wrap": true,
+                            "size": "Default",
+                            "fontType": "Default",
+                            "weight": "Lighter"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "",
+                                            "wrap": true,
+                                            "size": "ExtraLarge",
+                                            "weight": "Bolder"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://cdn.discordapp.com/attachments/974207971347283978/1130573696134815855/airplane.png",
+                                            "size": "Small",
+                                            "horizontalAlignment": "Center",
+                                            "spacing": "Small"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Snipe Queue System",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Right",
+                                            "size": "ExtraLarge",
+                                            "weight": "Bolder"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "test",
+                                            "wrap": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Points",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Right",
+                                            "fontType": "Default",
+                                            "weight": "Lighter"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "ActionSet",
+                                            "horizontalAlignment": "Center",
+                                            "actions": [
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Store",
+                                                    "id": "store",
+                                                    "url": "https://snipe.tebex.io/"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "ActionSet",
+                                            "horizontalAlignment": "Center",
+                                            "actions": [
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Discord",
+                                                    "url": "https://discord.gg/AeCVP2F8h7"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "ActionSet",
+                                            "horizontalAlignment": "Center",
+                                            "actions": [
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Rules",
+                                                    "id": "rules",
+                                                    "url": "https://discord.gg/AeCVP2F8h7"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "separator": true,
+                            "spacing": "Medium"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        }
+    ]
+}
+]
